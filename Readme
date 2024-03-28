@@ -1,0 +1,14 @@
+After working on project and making it
+* add shebang syntax to set enviornment
+1 do npm init -y (in terminal) to make package json files (done in order to link with npm and make it global)
+2 in package json file write a thing "bin":{
+    the name that you want to give it as when you want to install the npm package(this tool) you can use this name as npm name
+}
+
+example "bin":{
+    "edin":"main.js"
+}
+
+edin name points to main.js file
+
+3 in terminal write npm link to link with npm
